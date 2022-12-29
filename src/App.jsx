@@ -13,7 +13,7 @@ function App() {
     
   <>
   <NavBar></NavBar>
-  <ItemListConteiner greeting={"Producto"}></ItemListConteiner>
+  <ItemListConteiner greeting={"Los Simpson"}></ItemListConteiner>
   </>
     
     

@@ -3,7 +3,8 @@ import Box from '@mui/material/Box';
 import BottomNavigation from '@mui/material/BottomNavigation';
 import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 import RestoreIcon from '@mui/icons-material/Restore';
-import FavoriteIcon from '@mui/icons-material/Favorite';
+// import FavoriteIcon from '@mui/icons-material/Favorite';
+import GradeIcon from '@mui/icons-material/Grade';
 import CastleIcon from '@mui/icons-material/Castle';
 // import LocationOnIcon from '@mui/icons-material/LocationOn';
 
@@ -20,7 +21,7 @@ export default function SimpleBottomNavigation() {
         }}
       >
         <BottomNavigationAction label="Recientes" icon={<RestoreIcon />} />
-        <BottomNavigationAction label="Favoritos" icon={<FavoriteIcon />} />
+        <BottomNavigationAction label="Favoritos" icon={<GradeIcon />} />
         <BottomNavigationAction label="locales" icon={<CastleIcon />} />
       </BottomNavigation>
     </Box>

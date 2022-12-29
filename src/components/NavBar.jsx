@@ -24,9 +24,9 @@ export default function NavBar() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            MyappReact
+            SimpsonReact
           </Typography>
-          <div style={{margin:"0px 200px"}}>
+          <div style={{margin:"0px 25px"}}>
             <SimpleBottomNavigation></SimpleBottomNavigation>
         </div>
           <div>

@@ -52,12 +52,13 @@ export default function ItemListConteiner({greeting}) {
       <CardMedia
         component="img"
         height="194"
-        image="https://images-ext-1.discordapp.net/external/CEAihPUbwyaQIHk-sn8gNn-04KrjL7imyItYFbvBh84/%3Fixlib%3Drb-4.0.3%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D1770%26q%3D80/https/images.unsplash.com/photo-1555041469-a586c61ea9bc?width=720&height=480"
+        image='https://img2.rtve.es/i/?w=1600&i=1447940140906.jpg'
+        // image="https://images-ext-1.discordapp.net/external/CEAihPUbwyaQIHk-sn8gNn-04KrjL7imyItYFbvBh84/%3Fixlib%3Drb-4.0.3%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D1770%26q%3D80/https/images.unsplash.com/photo-1555041469-a586c61ea9bc?width=720&height=480"
         alt="Paella dish"
       />
       <CardContent>
         <Typography variant="body2" color="text.secondary">
-        Un sofá clásico consta de una estructura de madera forrada de tela y acolchada en algunas zonas (por ejemplo, en los apoyabrazos). A ella se añaden cojines de diversos rellenos que conforman el asiento y el respaldo.
+        La comedia de dibujos animados se centra en una familia que vive en la ciudad de Springfield.
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
@@ -78,12 +79,14 @@ export default function ItemListConteiner({greeting}) {
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
-          <Typography paragraph>Method:</Typography>
+          <Typography paragraph>Historia:</Typography>
           <Typography paragraph>
-            Heat 1/2 cup of the broth in a pot until simmering, add saffron and set
-            aside for 10 minutes.
+          La cabeza de la familia Simpson es Homero, quien no es un hombre de familia típico, obrero de una planta nuclear,
+            él hace lo mejor para poder liderar a su familia,
+            pero frecuentemente se da cuenta que son ellos los que lo mandan. La familia se compone de la matriarca amorosa,
+            Marge, de cabello azul, el hijo agitador Bart, la hija aplicada Lisa y la bebé Maggie.
           </Typography>
-          <Typography paragraph>
+          {/* <Typography paragraph>
             Heat oil in a (14- to 16-inch) paella pan or a large, deep skillet over
             medium-high heat. Add chicken, shrimp and chorizo, and cook, stirring
             occasionally until lightly browned, 6 to 8 minutes. Transfer shrimp to a
@@ -102,7 +105,7 @@ export default function ItemListConteiner({greeting}) {
           </Typography>
           <Typography>
             Set aside off of the heat to let rest for 10 minutes, and then serve.
-          </Typography>
+          </Typography> */}
         </CardContent>
       </Collapse>
     </Card>
