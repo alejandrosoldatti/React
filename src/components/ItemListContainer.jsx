@@ -38,7 +38,7 @@ export default function ItemListConteiner({greeting}) {
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
-            R
+            A
           </Avatar>
         }
         action={
@@ -47,7 +47,7 @@ export default function ItemListConteiner({greeting}) {
           </IconButton>
         }
         title={greeting}
-        subheader="September 14, 2016"
+        subheader=""
       />
       <CardMedia
         component="img"
@@ -57,9 +57,7 @@ export default function ItemListConteiner({greeting}) {
       />
       <CardContent>
         <Typography variant="body2" color="text.secondary">
-          This impressive paella is a perfect party dish and a fun meal to cook
-          together with your guests. Add 1 cup of frozen peas along with the mussels,
-          if you like.
+        Un sofá clásico consta de una estructura de madera forrada de tela y acolchada en algunas zonas (por ejemplo, en los apoyabrazos). A ella se añaden cojines de diversos rellenos que conforman el asiento y el respaldo.
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
